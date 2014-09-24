@@ -25,7 +25,10 @@ div.content{
 .websites, .contact, .about {
 	height: 200px;
 	width: 200px;
-	vertical-align: 50%;
+	opacity: 0.7;
+}
+.websites:hover, .contact:hover, .about:hover {
+	opacity: 1;
 }
 h6 {
 	text-align: 50%;
@@ -34,13 +37,14 @@ h6 {
 
 div.websites {
 	background-color: aquamarine;
+
 }
 div.websites:hover {
 	background-color: steelblue;
 }
 div.contact {
-
 	background-color: salmon;
+
 }
 div.contact:hover {
 	background-color: palevioletred;
