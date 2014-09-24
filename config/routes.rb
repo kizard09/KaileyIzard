@@ -54,6 +54,6 @@ Rails.application.routes.draw do
   #     resources :products
   #   end
   get '/home' => 'static_pages#home'
-  get '/index' => 'static_pages#index'
+  get '/work' => 'static_pages#work'
   root to: 'static_pages#home'
 end
