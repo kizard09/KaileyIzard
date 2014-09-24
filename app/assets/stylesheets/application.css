@@ -16,7 +16,7 @@
  body {
  	text-align: center;
  	font-family: Georgia;
- 	background-image: ('avocado.png')
+ 	background-image: url('photo (1).JPG')
  }
 div.content{
 	display:inline-block;
