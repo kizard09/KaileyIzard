@@ -16,7 +16,7 @@
  body {
  	text-align: center;
  	font-family: Georgia;
- 	background-image: url("avocado.png");
+ 	background-image: asset-url("avocado.png");
  	background-size: 1400px;
  }
  h1, h2 {
