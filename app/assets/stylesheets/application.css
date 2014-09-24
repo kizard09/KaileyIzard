@@ -13,25 +13,30 @@
  *= require_tree .
  *= require_self
  */
-
-.websites {
+div.content{
+	display:inline-block;
+	font-family: Georgia;
+	color:white;
+	text-align: center;
+}
+div.websites {
 	background-size: 300px 300px;
 	background-color: aquamarine;
 }
-.websites:hover {
+div.websites:hover {
 	background-color: steelblue;
 }
-.contact {
+div.contact {
 	background-size: 300px 300px;
 	background-color: salmon;
 }
-.contact:hover {
+div.contact:hover {
 	background-color: palevioletred;
 }
-.about {
+div.about {
 	background-size: 300px 300px;
 	background-color: yellow;
 }
-.about:hover{
+div.about:hover{
 	background-color: orange;
 	}
