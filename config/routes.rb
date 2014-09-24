@@ -55,5 +55,6 @@ Rails.application.routes.draw do
   #   end
   get '/home' => 'static_pages#home'
   get '/work' => 'static_pages#work'
+  get '/about' => 'static_pages#about'
   root to: 'static_pages#home'
 end

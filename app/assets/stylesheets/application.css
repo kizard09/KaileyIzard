@@ -13,26 +13,37 @@
  *= require_tree .
  *= require_self
  */
+
  body {
  	text-align: center;
  	font-family: Georgia;
- 	background-image: asset-url("avocado.png");
- 	background-size: 1400px;
+ 	background-image: url("avocado.png");
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
  }
+
  h1, h2 {
  	color: white;
  	text-shadow: 2px 2px 2px gray;
+ 	font-weight: normal;
  }
+address a, .resume a, .work a, .quietgood a, .about a, .home a{
+ 	text-decoration: none;
+ 	color:white;
+ }
+address a:hover {
+	font-weight: bold;
+}
 div.content{
 	display:inline-flex;
 	color:white;
 }
-.websites, .contact, .about {
+.work, .contact, .about, .resume {
 	height: 200px;
 	width: 200px;
 	opacity: 0.7;
 }
-.websites:hover, .contact:hover, .about:hover {
+.work:hover, .contact:hover, .about:hover, .resume:hover, .quietgood:hover {
 	opacity: 1;
 }
 h6 {
@@ -40,23 +51,68 @@ h6 {
 	font-size: 24px;
 }
 
-div.websites {
+.work {
 	background-color: aquamarine;
 
 }
-div.websites:hover {
+.work:hover {
 	background-color: steelblue;
 }
-div.contact {
+.contact {
 	background-color: salmon;
 
 }
-div.contact:hover {
+.contact:hover {
 	background-color: palevioletred;
 }
-div.about {
+.about {
 	background-color: yellow;
 }
-div.about:hover{
+.about:hover{
 	background-color: orange;
 	}
+.resume {
+	background-color: plum;
+}
+.resume:hover{
+	background-color: mediumorchid;
+	}
+.quietgood{
+	background-color: RoyalBlue;
+	height: 200px;
+	width:60%;
+	opacity: 0.7;
+	margin-right: auto;
+	margin-left: auto;
+}
+.quietgood a{
+	float:left;
+	font-size: 30px;
+	padding-left: 10px;
+	padding-top: 10px;
+	position: relative;
+}
+.quietgood img {
+	height:200px;
+	width:auto;
+	float:right;
+}
+.smallcontent{
+	display:inline-flex;
+	color:white;
+	margin-top: 300px;
+}
+.smallcontent div{
+	height:100px;
+	width:100px;
+}
+.smallcontent h6{
+	font-size: 15px;
+}
+.home {
+	background-color: yellow;
+}
+.home:hover{
+	background-color: orange;
+	}
+
