@@ -16,10 +16,15 @@
  body {
  	text-align: center;
  	font-family: Georgia;
- 	background-image: url('photo (1).JPG')
+ 	background-image: url("avocado");
+ 	background-size: 1400px;
+ }
+ h1, h2 {
+ 	color: white;
+ 	text-shadow: 2px 2px 2px gray;
  }
 div.content{
-	display:inline-block;
+	display:inline-flex;
 	color:white;
 }
 .websites, .contact, .about {
