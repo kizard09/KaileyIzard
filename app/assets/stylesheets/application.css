@@ -17,7 +17,7 @@
  body {
  	text-align: center;
  	font-family: Georgia;
- 	background-image: url("avocado.png");
+ 	background-image: url('avocado.png');
  	background-size: cover;
  	background-repeat: no-repeat;
  }
@@ -56,7 +56,7 @@ h6 {
 
 }
 .work:hover {
-	background-color: steelblue;
+	background-color: mediumseagreen;
 }
 .contact {
 	background-color: salmon;
