@@ -17,8 +17,8 @@
  body {
  	text-align: center;
  	font-family: Georgia;
- 	background: image-url('avocado.jpeg');
- 	background-size: cover;
+ 	background-image: url('avocado.jpeg');
+ 	background-size: 100% auto;
  	background-repeat: no-repeat;
  }
 
