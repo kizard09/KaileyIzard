@@ -77,16 +77,7 @@ h6 {
 .resume:hover{
 	background-color: mediumorchid;
 	}
-/*.quietgood{
-	background-color: white;
-	height: 200px;
-	width:60%;
-	opacity: 0.7;
-	margin-right: auto;
-	margin-left: auto;
-	text-shadow:2px 2px 2px;
 
-}*/
 .workpic {
 	width: 100%;
 	height: auto;
@@ -98,8 +89,6 @@ h6 {
 	background-color: white;
 	box-shadow: 0 5px 5px #888888;
 	margin: 0 2px 15px;
-/*	transition: opacity: .4s ease-in-out;
-	column-break-inside: avoid;*/
 	display: inline-block;
 	width: 100%;
 	border-radius: 5px;
@@ -118,41 +107,18 @@ h6 {
 #columns {
 	font-family: Georgia;
 	text-align: center;
-	column-width: 200px;
-	column-gap: 15px;
-	column-count: 8;
-	column-fill: auto;
 	-webkit-column-gap: 15px;
 	-webkit-column-count: 8;
-	-webkit-column-fill: auto;
 	-webkit-column-width: 200px;
 	width: 90%;
 	max-width: 1100px;
 	margin: 50px auto;
 	-moz-column-gap: 15px;
-	-moz-column-count: 8;
+	-moz-column-count: 2;
 	-moz-column-fill: auto;
 	-moz-column-width: 200px;
 }
-/*.quietgood a{
-	float:left;
-	font-size: 30px;
-	position: relative;
-	color:lightgray;
-
-}
-.quietgood img {
-
-	height:auto;
-	width:auto;
-	position:fixed;
-
-}
-.worklink{
-	display: inline-block;
-	text-align: center;
-}
-*/.smallcontent{
+.smallcontent{
 	display:inline-flex;
 	color:white;
 	margin-top: 300px;
