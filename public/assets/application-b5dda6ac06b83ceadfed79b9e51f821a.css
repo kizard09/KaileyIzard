@@ -1,0 +1,163 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+/* line 18, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+body {
+  text-align: center;
+  font-family: Georgia;
+  background: url(/assets/avocado.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* line 26, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+h1, h2 {
+  color: white;
+  text-shadow: 2px 2px 2px gray;
+  font-weight: normal;
+}
+
+/* line 31, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+address a, .resume a, .work a, .quietgood a, .about a, .home a {
+  text-decoration: none;
+  color: white;
+}
+
+/* line 35, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+address a:hover {
+  font-weight: bold;
+}
+
+/* line 38, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+div.content {
+  display: inline-flex;
+  color: white;
+}
+
+/* line 42, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+.work, .contact, .about, .resume {
+  height: 200px;
+  width: 200px;
+  opacity: 0.7;
+}
+
+/* line 47, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+.work:hover, .contact:hover, .about:hover, .resume:hover, .quietgood:hover {
+  opacity: 1;
+}
+
+/* line 50, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+h6 {
+  text-align: 50%;
+  font-size: 24px;
+}
+
+/* line 55, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+.work {
+  background-color: aquamarine;
+}
+
+/* line 59, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+.work:hover {
+  background-color: mediumseagreen;
+}
+
+/* line 62, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+.contact {
+  background-color: salmon;
+}
+
+/* line 66, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+.contact:hover {
+  background-color: palevioletred;
+}
+
+/* line 69, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+.about {
+  background-color: yellow;
+}
+
+/* line 72, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+.about:hover {
+  background-color: orange;
+}
+
+/* line 75, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+.resume {
+  background-color: plum;
+}
+
+/* line 78, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+.resume:hover {
+  background-color: mediumorchid;
+}
+
+/* line 81, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+.quietgood {
+  background-color: white;
+  height: 200px;
+  width: 60%;
+  opacity: 0.7;
+  margin-right: auto;
+  margin-left: auto;
+  text-shadow: 2px 2px 2px;
+}
+
+/* line 91, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+.quietgood a {
+  float: left;
+  font-size: 30px;
+  padding-left: 10px;
+  padding-top: 10px;
+  position: relative;
+  color: lightgray;
+}
+
+/* line 99, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+.quietgood img {
+  height: 200px;
+  width: auto;
+  float: right;
+}
+
+/* line 104, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+.smallcontent {
+  display: inline-flex;
+  color: white;
+  margin-top: 300px;
+}
+
+/* line 109, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+.smallcontent div {
+  height: 100px;
+  width: 100px;
+}
+
+/* line 113, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+.smallcontent h6 {
+  font-size: 15px;
+}
+
+/* line 116, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+.home {
+  background-color: yellow;
+}
+
+/* line 119, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+.home:hover {
+  background-color: orange;
+}
+
+/* Push */
