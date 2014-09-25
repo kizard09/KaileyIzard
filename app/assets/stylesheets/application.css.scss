@@ -96,19 +96,23 @@ h6 {
 	text-decoration: none;
 	color: #000066;
 }
+.worklink p{
+	font-size: 24px;
+}
 .worklink a{
 	text-shadow: 2px 2px 2px black;
 	font-size: 24px;
-	color:lightgray;
+	color:gray;
 }
 .worklink a:hover{
 	font-size: 28px;
+	color:gray;
 }
 #columns {
 	font-family: Georgia;
 	text-align: center;
 	-webkit-column-gap: 15px;
-	-webkit-column-count: 8;
+	-webkit-column-count: 2;
 	-webkit-column-width: 200px;
 	width: 90%;
 	max-width: 1100px;
