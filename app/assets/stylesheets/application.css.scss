@@ -78,13 +78,6 @@ h6 {
 	background-color: mediumorchid;
 	}
 
-.workpic {
-	width: 100%;
-	height: auto;
-	padding-bottom: 15px;
-	margin-bottom: 5px;
-}
-
 .quietgood {
 	background-color: white;
 	box-shadow: 0 5px 5px #888888;
@@ -103,7 +96,14 @@ h6 {
 	text-decoration: none;
 	color: #000066;
 }
-
+.worklink a{
+	text-shadow: 2px 2px 2px black;
+	font-size: 24px;
+	color:lightgray;
+}
+.worklink a:hover{
+	font-size: 28px;
+}
 #columns {
 	font-family: Georgia;
 	text-align: center;
@@ -159,8 +159,8 @@ body{
 	background-size: 1500px auto;
 }
 .quietgood img {
-	height:175px;
-	width:auto;
+	height:auto;
+	width:100%;
 	float:right;
 }
 }
@@ -176,8 +176,8 @@ body{
 	background-size: 1000px auto;
 }
 .quietgood img {
-	height:175px;
-	width:auto;
+	height:auto;
+	width:100%;
 	float:right;
 }
 }
