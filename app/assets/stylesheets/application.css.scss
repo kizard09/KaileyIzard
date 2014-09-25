@@ -13,7 +13,11 @@
  *= require_tree .
  *= require_self
  */
+.worklink{
+	display: inline-block;
+	text-align: center;
 
+}
  body {
  	text-align: center;
  	font-family: Georgia;
@@ -85,20 +89,22 @@ h6 {
 	margin-right: auto;
 	margin-left: auto;
 	text-shadow:2px 2px 2px;
+
 }
 
 .quietgood a{
 	float:left;
 	font-size: 30px;
-	padding-left: 10px;
-	padding-top: 10px;
 	position: relative;
 	color:lightgray;
+
 }
 .quietgood img {
-	height:200px;
+
+	height:auto;
 	width:auto;
-	float:right;
+	position:fixed;
+
 }
 .smallcontent{
 	display:inline-flex;
@@ -120,4 +126,29 @@ h6 {
 	
 }
 /* Push */
-
+@media only screen and (max-width: 1000px) {
+body{
+	background-size: 1000px auto;
+}
+.content div{
+	height:150px;
+	width:150px;
+}
+}
+@media only screen and (max-width: 624px), handheld {
+div.content {
+	display:inline-block;
+}
+.content div{
+	height:200px;
+	width:200px;
+}
+body{
+	background-size: 1500px auto;
+}
+.quietgood img {
+	height:175px;
+	width:auto;
+	float:right;
+}
+}
