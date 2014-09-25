@@ -131,7 +131,6 @@ div.content{
 	display:inline-flex;
 	color:white;
 	margin-top: 300px;
-	display: -webkit-inline-box;
 	display: -webkit-inline-flex;
 	display: -moz-inline-box;
 	display: -ms-inline-flexbox;
@@ -167,6 +166,7 @@ body{
 @media only screen and (max-width: 624px) {
 .content {
 	display:inline-block;
+	display: -webkit-inline-block;
 }
 .content div{
 	height:200px;
@@ -208,5 +208,6 @@ body{
 	display:inline-block;
 	margin-left: auto;
 	margin-right: auto;
+	display: -webkit-inline-block;
 }
 }
