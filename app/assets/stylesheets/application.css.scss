@@ -18,7 +18,7 @@
  	text-align: center;
  	font-family: Georgia;
  	background-image: url('avocado.jpeg');
- 	background-size: 1500px auto;
+ 	background-size: 1400px auto;
  	background-repeat: no-repeat;
  }
 h1 {
@@ -157,7 +157,7 @@ div.content{
 /* Push */
 @media only screen and (max-width: 1000px) {
 body{
-	background-size: 1500px auto;
+	background-size: auto 1000px;
 }
 .content div{
 	height:150px;
@@ -173,7 +173,7 @@ body{
 	width:200px;
 }
 body{
-	background-size: 1000px auto;
+	background-size: auto 1000px;
 }
 .quietgood img {
 	height:auto;
@@ -190,7 +190,7 @@ div.content {
 	width:200px;
 }
 body{
-	background-size: 1000px auto;
+	background-size: auto 800px;
 }
 .quietgood img {
 	height:auto;
