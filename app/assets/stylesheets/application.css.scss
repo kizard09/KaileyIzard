@@ -135,8 +135,25 @@ body{
 	width:150px;
 }
 }
-@media only screen and (max-width: 624px), handheld {
+@media only screen and (max-width: 624px) {
 div.content {
+	display:inline-block;
+}
+.content div{
+	height:200px;
+	width:200px;
+}
+body{
+	background-size: 1500px auto;
+}
+.quietgood img {
+	height:175px;
+	width:auto;
+	float:right;
+}
+}
+@media only handheld{
+	div.content {
 	display:inline-block;
 }
 .content div{
