@@ -96,17 +96,13 @@ h6 {
 	text-decoration: none;
 	color: #000066;
 }
-.worklink p{
-	font-size: 24px;
-}
-.worklink a{
-	text-shadow: 2px 2px 2px black;
-	font-size: 24px;
+
+.worklink a {
 	color:gray;
 }
 .worklink a:hover{
-	font-size: 28px;
 	color:gray;
+	text-shadow: 2px 2px 2px black;
 }
 #columns {
 	font-family: Georgia;
@@ -183,5 +179,12 @@ body{
 	height:auto;
 	width:100%;
 	float:right;
+}
+.smallcontent, .smallcontent div{
+	display:inline-flex;
+}
+h6{
+	font-size: 26px;
+	text-shadow: 2px 2px 2px black;
 }
 }
