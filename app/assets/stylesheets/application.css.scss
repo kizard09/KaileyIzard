@@ -153,7 +153,7 @@ body{
 }
 }
 @media only handheld{
-	div.content {
+div.content {
 	display:inline-block;
 }
 .content div{
@@ -161,7 +161,8 @@ body{
 	width:200px;
 }
 body{
-	background-size: 1500px auto;
+	background-size: 1000px auto;
+	background: url(avocado.jpeg) 200px 0;
 }
 .quietgood img {
 	height:175px;
