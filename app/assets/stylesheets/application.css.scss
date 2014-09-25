@@ -42,9 +42,7 @@ address a:hover {
 	font-weight: bold;
 }
 div.content{
-	display:inline-flex;
 	color:white;
-	display: -webkit-inline-box;
 	display: -webkit-inline-flex;
 	display: -moz-inline-box;
 	display: -ms-inline-flexbox;
@@ -164,7 +162,7 @@ body{
 }
 }
 @media only screen and (max-width: 624px) {
-.content {
+div.content {
 	display:inline-block;
 	display: -webkit-inline-block;
 }
@@ -184,6 +182,7 @@ body{
 @media only handheld{
 div.content {
 	display:inline-block;
+	display: -webkit-inline-block;
 }
 .content div{
 	height:200px;
