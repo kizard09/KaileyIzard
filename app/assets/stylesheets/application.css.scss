@@ -18,10 +18,12 @@
  	text-align: center;
  	font-family: Georgia;
  	background-image: url('avocado.jpeg');
- 	background-size: 100% auto;
+ 	background-size: 1500px auto;
  	background-repeat: no-repeat;
  }
-
+h1 {
+	font-size: 3em;
+}
  h1, h2 {
  	color: white;
  	text-shadow: 2px 2px 2px gray;
@@ -45,10 +47,6 @@ div.content{
 }
 .work:hover, .contact:hover, .about:hover, .resume:hover, .quietgood:hover {
 	opacity: 1;
-}
-h6 {
-	text-align: 50%;
-	font-size: 24px;
 }
 
 .work {
@@ -128,7 +126,9 @@ h6 {
 	width:100px;
 }
 .smallcontent h6{
-	font-size: 15px;
+	font-size: 18px;
+	text-shadow:2px 1px 2px black;
+	font-weight: normal;
 }
 .home {
 	background-color: yellow;
@@ -140,7 +140,7 @@ h6 {
 /* Push */
 @media only screen and (max-width: 1000px) {
 body{
-	background-size: 1000px auto;
+	background-size: 1500px auto;
 }
 .content div{
 	height:150px;
@@ -156,7 +156,7 @@ div.content {
 	width:200px;
 }
 body{
-	background-size: 1500px auto;
+	background-size: 1000px auto;
 }
 .quietgood img {
 	height:auto;
@@ -180,11 +180,14 @@ body{
 	width:100%;
 	float:right;
 }
-.smallcontent, .smallcontent div{
+div.smallcontent{
 	display:inline-flex;
 }
-h6{
+.smallcontent a{
 	font-size: 26px;
 	text-shadow: 2px 2px 2px black;
+}
+.smallcontent h6 {
+	font-size: 20px;
 }
 }
