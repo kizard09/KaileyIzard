@@ -24,11 +24,11 @@ Rails.application.configure do
   # Compress JavaScripts and CSS.
   config.assets.js_compressor = :uglifier
   # config.assets.css_compressor = :sass
-  config.serve_static_assets = true
+  config.serve_static_assets = false
   config.action_dispatch.x_sendfile_header = 'X-Accel-Redirect'
-  config.assets.compile = true
+  config.assets.compile = false
   # Do not fallback to assets pipeline if a precompiled asset is missed.
-  config.assets.precompile =  ['*.js', '*.css', '*.css.erb', '*.css.scss'] 
+  # config.assets.precompile =  ['*.js', '*.css', '*.css.erb', '*.css.scss'] 
 
   # Generate digests for assets URLs.
   config.assets.digest = true
