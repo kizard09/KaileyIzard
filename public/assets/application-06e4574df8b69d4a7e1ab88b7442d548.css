@@ -1,0 +1,284 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+/* line 18, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+body {
+  text-align: center;
+  font-family: Georgia;
+  background-image: url("avocado.jpeg");
+  background-size: 1400px auto;
+  background-repeat: no-repeat;
+}
+
+/* line 25, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+h1 {
+  font-size: 3em;
+}
+
+/* line 28, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+.content h6 {
+  font-size: 24px;
+  text-shadow: 2px 1px 2px black;
+  font-weight: normal;
+}
+
+/* line 33, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+h1, h2 {
+  color: white;
+  text-shadow: 2px 2px 2px gray;
+  font-weight: normal;
+}
+
+/* line 38, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+address a, .resume a, .work a, .quietgood a, .about a, .home a, .pinteresting a {
+  text-decoration: none;
+  color: white;
+}
+
+/* line 42, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+address a:hover {
+  font-weight: bold;
+}
+
+/* line 45, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+div.content {
+  color: white;
+  display: -webkit-inline-flex;
+  display: -moz-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-self: auto;
+}
+
+/* line 53, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+.work, .contact, .about, .resume {
+  height: 200px;
+  width: 200px;
+  opacity: 0.7;
+}
+
+/* line 58, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+.work:hover, .contact:hover, .about:hover, .resume:hover, .quietgood:hover, .pinteresting:hover {
+  opacity: 1;
+}
+
+/* line 62, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+.work {
+  background-color: aquamarine;
+}
+
+/* line 66, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+.work:hover {
+  background-color: mediumseagreen;
+}
+
+/* line 69, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+.contact {
+  background-color: salmon;
+}
+
+/* line 73, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+.contact:hover {
+  background-color: palevioletred;
+}
+
+/* line 76, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+.about {
+  background-color: yellow;
+}
+
+/* line 79, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+.about:hover {
+  background-color: orange;
+}
+
+/* line 82, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+.resume {
+  background-color: plum;
+}
+
+/* line 85, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+.resume:hover {
+  background-color: mediumorchid;
+}
+
+/* line 89, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+.quietgood, .pinteresting {
+  background-color: white;
+  box-shadow: 0 5px 5px #888888;
+  margin: 0 2px 15px;
+  display: inline-block;
+  width: 100%;
+  border-radius: 5px;
+  padding-top: 15px;
+}
+
+/* line 98, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+.quietgood:not(:hover), .pinteresting:not(:hover) {
+  opacity: 0.7;
+  /* makes it a little clearer when hover over it*/
+}
+
+/* line 102, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+.quietgood :hover, .pinteresting :hover {
+  background-color: transparent;
+  text-decoration: none;
+  color: #000066;
+}
+
+/* line 108, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+.worklink a {
+  color: gray;
+}
+
+/* line 111, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+.worklink a:hover {
+  color: gray;
+  text-shadow: 2px 2px 2px black;
+}
+
+/* line 115, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+#columns {
+  font-family: Georgia;
+  text-align: center;
+  -webkit-column-gap: 15px;
+  -webkit-column-count: 2;
+  -webkit-column-width: 200px;
+  width: 90%;
+  max-width: 1100px;
+  margin: 50px auto;
+  -moz-column-gap: 15px;
+  -moz-column-count: 2;
+  -moz-column-fill: auto;
+  -moz-column-width: 200px;
+}
+
+/* line 129, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+.smallcontent {
+  display: inline-flex;
+  color: white;
+  margin-top: 20px;
+  display: -webkit-inline-flex;
+  display: -moz-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-self: auto;
+}
+
+/* line 139, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+.smallcontent div {
+  height: 100px;
+  width: 100px;
+}
+
+/* line 143, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+.smallcontent h6 {
+  font-size: 18px;
+  text-shadow: 2px 1px 2px black;
+  font-weight: normal;
+}
+
+/* line 148, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+.home {
+  background-color: yellow;
+}
+
+/* line 151, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+.home:hover {
+  background-color: orange;
+}
+
+/* Push */
+@media only screen and (max-width: 1000px) {
+  /* line 157, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+  body {
+    background-size: auto 1000px;
+  }
+
+  /* line 160, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+  .content div {
+    height: 150px;
+    width: 150px;
+  }
+}
+@media only screen and (max-width: 624px) {
+  /* line 166, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+  div.content {
+    display: inline-block;
+    display: -webkit-inline-block;
+  }
+
+  /* line 170, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+  .content div {
+    height: 200px;
+    width: 200px;
+  }
+
+  /* line 174, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+  body {
+    background-size: auto 1000px;
+  }
+
+  /* line 177, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+  .quietgood img, .pinteresting img {
+    height: auto;
+    width: 100%;
+    float: right;
+  }
+}
+@media only handheld {
+  /* line 184, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+  div.content {
+    display: inline-block;
+    display: -webkit-inline-block;
+  }
+
+  /* line 188, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+  .content div {
+    height: 200px;
+    width: 200px;
+  }
+
+  /* line 192, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+  body {
+    background-size: auto 800px;
+  }
+
+  /* line 195, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+  .quietgood img, .pinteresting img {
+    height: auto;
+    width: 100%;
+    float: right;
+  }
+
+  /* line 200, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+  .smallcontent a {
+    font-size: 26px;
+    text-shadow: 2px 2px 2px black;
+  }
+
+  /* line 204, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+  .smallcontent h6 {
+    font-size: 20px;
+  }
+
+  /* line 207, /Users/Charlie/workspace/KaileyIZard/app/assets/stylesheets/application.css.scss */
+  .smallcontent {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    display: -webkit-inline-block;
+  }
+}

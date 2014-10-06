@@ -34,7 +34,7 @@ h1 {
  	text-shadow: 2px 2px 2px gray;
  	font-weight: normal;
  }
-address a, .resume a, .work a, .quietgood a, .about a, .home a{
+address a, .resume a, .work a, .quietgood a, .about a, .home a, .pinteresting a{
  	text-decoration: none;
  	color:white;
  }
@@ -54,7 +54,7 @@ div.content{
 	width: 200px;
 	opacity: 0.7;
 }
-.work:hover, .contact:hover, .about:hover, .resume:hover, .quietgood:hover {
+.work:hover, .contact:hover, .about:hover, .resume:hover, .quietgood:hover, .pinteresting:hover {
 	opacity: 1;
 }
 
@@ -85,7 +85,7 @@ div.content{
 	background-color: mediumorchid;
 	}
 
-.quietgood {
+.quietgood, .pinteresting {
 	background-color: white;
 	box-shadow: 0 5px 5px #888888;
 	margin: 0 2px 15px;
@@ -94,11 +94,11 @@ div.content{
 	border-radius: 5px;
 	padding-top: 15px;
 }
-.quietgood:not(:hover) {
+.quietgood:not(:hover), .pinteresting:not(:hover) {
 	opacity: 0.7; /* makes it a little clearer when hover over it*/
 }
 
-.quietgood :hover {
+.quietgood :hover, .pinteresting :hover {
 	background-color: transparent;
 	text-decoration: none;
 	color: #000066;
@@ -173,7 +173,7 @@ div.content {
 body{
 	background-size: auto 1000px;
 }
-.quietgood img {
+.quietgood img, .pinteresting img{
 	height:auto;
 	width:100%;
 	float:right;
@@ -191,7 +191,7 @@ div.content {
 body{
 	background-size: auto 800px;
 }
-.quietgood img {
+.quietgood img, .pinteresting img{
 	height:auto;
 	width:100%;
 	float:right;
