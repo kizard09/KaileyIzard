@@ -1,5 +1,9 @@
 source 'https://rubygems.org'
 
+gem 'rails_12factor', group: :production
+
+gem 'rails_serve_static_assets'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.4'
 # Use sqlite3 as the database for Active Record
@@ -42,6 +46,6 @@ gem 'spring',        group: :development
 
 group :production do
 	gem 'pg'
-	gem 'rails_12factor'
+
 end
 
