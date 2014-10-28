@@ -14,3 +14,14 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+$(function(){
+	$('#bubble').on('click', function(){
+	    $(this).animate({
+	        'margin-left': '50%',
+	        'margin-top': '50%',
+	        'opacity':'0'
+	    });
+	   
+	});
+});
