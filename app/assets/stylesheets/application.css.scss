@@ -14,9 +14,11 @@
  *= require_self
  */
 .logo{
-	background-image: url('logo.jpg');
+	background-image: url('logo.png');
  	background-size: 400px auto;
  	background-repeat: no-repeat;
+ 	height:400px;
+ 	width: 400px;
 }
  body {
  	text-align: center;
