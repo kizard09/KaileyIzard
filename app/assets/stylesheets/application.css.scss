@@ -17,7 +17,7 @@
 	background-image: url('logo.png');
  	background-size: 400px auto;
  	background-repeat: no-repeat;
- 	height:400px;
+ 	height:300px;
  	width: 400px;
  	margin-left: auto;
  	margin-right: auto;
@@ -61,6 +61,8 @@ div.content{
 	height: 200px;
 	width: 200px;
 	opacity: 0.7;
+	box-shadow: 3px 3px 3px black;
+	border-radius: 100px;
 }
 .work:hover, .contact:hover, .about:hover, .resume:hover, .quietgood:hover, .pinteresting:hover {
 	opacity: 1;
@@ -146,6 +148,8 @@ div.content{
 .smallcontent div{
 	height:100px;
 	width:100px;
+	border-radius: 100px;
+	box-shadow: 3px 3px 3px black;
 }
 .smallcontent h6 {
 	font-size: 18px;
@@ -168,6 +172,9 @@ body{
 	height:150px;
 	width:150px;
 }
+.content h6{
+	padding: 50px;
+}
 }
 @media only screen and (max-width: 624px) {
 div.content {
@@ -179,7 +186,7 @@ div.content {
 	width:200px;
 }
 body{
-	background-size: auto 1000px;
+	background-size: auto 1400px;
 }
 .quietgood img, .pinteresting img{
 	height:auto;
