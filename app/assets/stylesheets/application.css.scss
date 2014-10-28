@@ -172,9 +172,6 @@ body{
 	height:150px;
 	width:150px;
 }
-.content h6{
-	padding: 50px;
-}
 }
 @media only screen and (max-width: 624px) {
 div.content {
@@ -184,6 +181,9 @@ div.content {
 .content div{
 	height:200px;
 	width:200px;
+}
+.content h6{
+	padding: 50px;
 }
 body{
 	background-size: auto 1400px;
