@@ -15,12 +15,12 @@
 //= require turbolinks
 //= require_tree .
 
+	// $('#bubble').on('ready', function(){
+			// });
 $(function(){
-	$('#bubble').on('load', function(){
-	    $(this).animate({
-	        'margin-left': '50%',
-	        'margin-top': '50%',
-	        'opacity':'0'
-	    });
-	});
+    $('#bubble').animate({
+        'margin-left': '50%',
+        'margin-top': '50%',
+        'opacity':'0'
+    });
 });
