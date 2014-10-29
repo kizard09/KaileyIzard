@@ -13,13 +13,34 @@
  *= require_tree .
  *= require_self
  */
- #bubble{
+ #bubble, #bubble1, #bubble2, #bubble3, #bubble4, #bubble5, #bubble6, #bubble7 {
     background-color: pink;
     border-radius: 100px;
     height: 100px;
     width: 100px;
     z-index: 1;
     position: absolute;
+}
+#bubble1{
+    background-color: lightyellow;
+}
+#bubble2{
+    background-color: lightblue;
+}
+#bubble3{
+    background-color: lightgreen;
+}
+#bubble4{
+    background-color: orange;
+}
+#bubble5{
+    background-color: violet;
+}
+#bubble6{
+    background-color: aqua;
+}
+#bubble7{
+    background-color: white;
 }
 .logo{
 	background-image: url('logo.png');

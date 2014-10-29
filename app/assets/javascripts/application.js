@@ -25,4 +25,53 @@ $(function(){
     }, 'slow' , function() {
     	$(this).remove();
     });
+    $('#bubble1').animate({
+        'margin-left': '50%',
+        'margin-top': '50%',
+        'opacity':'0'
+    }, 'slow' , function() {
+    	$(this).remove();
+    });
+    $('#bubble2').animate({
+        'margin-left': '50%',
+        'margin-top': '50%',
+        'opacity':'0'
+    }, 'slow' , function() {
+    	$(this).remove();
+    });
+    $('#bubble3').animate({
+        'margin-left': '50%',
+        'margin-top': '50%',
+        'opacity':'0'
+    }, 'slow' , function() {
+    	$(this).remove();
+    });
+    $('#bubble4').animate({
+        'margin-left': '50%',
+        'margin-top': '50%',
+        'opacity':'0'
+    }, 'slow' , function() {
+    	$(this).remove();
+    });
+    $('#bubble5').animate({
+        'margin-left': '50%',
+        'margin-top': '50%',
+        'opacity':'0'
+    }, 'slow' , function() {
+    	$(this).remove();
+    });
+    $('#bubble6').animate({
+        'margin-left': '50%',
+        'margin-top': '50%',
+        'opacity':'0'
+    }, 'slow' , function() {
+    	$(this).remove();
+    });
+    $('#bubble7').animate({
+        'margin-left': '50%',
+        'margin-top': '50%',
+        'opacity':'0'
+    }, 'slow' , function() {
+    	$(this).remove();
+    });
 });
