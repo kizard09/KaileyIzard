@@ -18,6 +18,7 @@
     border-radius: 100px;
     height: 100px;
     width: 100px;
+    z-index: 1;
 }
 .logo{
 	background-image: url('logo.png');
@@ -42,6 +43,10 @@ h1 {
 	font-size: 24px;
 	text-shadow:2px 1px 2px black;
 	font-weight: normal;
+}
+h1, h2, .content, .logo{
+	position: fixed;
+	z-index: 0;
 }
  h1, h2 {
  	color: white;

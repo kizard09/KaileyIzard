@@ -22,6 +22,6 @@ $(function(){
 	        'margin-top': '50%',
 	        'opacity':'0'
 	    });
-	   
+	   $(this).remove();
 	});
 });
