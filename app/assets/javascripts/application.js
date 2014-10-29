@@ -22,5 +22,7 @@ $(function(){
         'margin-left': '50%',
         'margin-top': '50%',
         'opacity':'0'
+    }, 500, function() {
+    	$(this).remove();
     });
 });
