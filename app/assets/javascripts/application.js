@@ -16,7 +16,7 @@
 //= require_tree .
 
 $(function(){
-	$('#bubble').on('click', function(){
+	$('#bubble').on('load', function(){
 	    $(this).animate({
 	        'margin-left': '50%',
 	        'margin-top': '50%',
