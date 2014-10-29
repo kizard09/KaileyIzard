@@ -26,7 +26,7 @@ $(function(){
     	$(this).remove();
     });
     $('#bubble1').animate({
-        'margin-left': '50%',
+        'margin-right': '50%',
         'margin-top': '50%',
         'opacity':'0'
     }, 5000 , function() {
@@ -40,7 +40,7 @@ $(function(){
     	$(this).remove();
     });
     $('#bubble3').animate({
-        'margin-left': '50%',
+        'margin-right': '50%',
         'margin-top': '50%',
         'opacity':'0'
     }, 5000 , function() {
@@ -54,7 +54,7 @@ $(function(){
     	$(this).remove();
     });
     $('#bubble5').animate({
-        'margin-left': '50%',
+        'margin-right': '50%',
         'margin-top': '50%',
         'opacity':'0'
     }, 5000 , function() {
@@ -68,7 +68,7 @@ $(function(){
     	$(this).remove();
     });
     $('#bubble7').animate({
-        'margin-left': '50%',
+        'margin-right': '50%',
         'margin-top': '50%',
         'opacity':'0'
     }, 5000 , function() {
