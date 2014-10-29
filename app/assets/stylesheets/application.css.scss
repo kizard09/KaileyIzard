@@ -23,24 +23,34 @@
 }
 #bubble1{
     background-color: lightyellow;
+    float: right;
 }
 #bubble2{
     background-color: lightblue;
+    margin-top: 100px;
 }
 #bubble3{
     background-color: lightgreen;
+    float:right;
+    margin-top: 100px;
 }
 #bubble4{
     background-color: orange;
+    margin-top: 200px;
 }
 #bubble5{
     background-color: violet;
+    float:right;
+    margin-top: 200px;
 }
 #bubble6{
     background-color: aqua;
+    margin-top: 300px;
 }
 #bubble7{
     background-color: white;
+    float:right;
+    margin-top: 300px;
 }
 .logo{
 	background-image: url('logo.png');
