@@ -44,7 +44,9 @@ h1 {
 	text-shadow:2px 1px 2px black;
 	font-weight: normal;
 }
-
+h1, h2, .content, .logo{
+	z-index: 0;
+}
  h1, h2 {
  	color: white;
  	text-shadow: 2px 2px 2px gray;
